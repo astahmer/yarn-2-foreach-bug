@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "name": "yarn-2-foreach-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "astahmer",
+  "license": "MIT",
+  "scripts": {
+    "print": "yarn workspaces foreach run print"
+  }
+}
